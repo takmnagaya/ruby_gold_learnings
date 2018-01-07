@@ -83,3 +83,19 @@ ri String
 ri String.to_s
 ~~~
 
+## コメントとRDOC
+
+### コメント
+ファイルの先頭に記載してファイルのエンコードを指定する記法がある
+```ruby
+# vim:set fileencoding=euc-jp:
+# -*- coding: euc-jp -*-
+# coding: euc-jp
+```
+
+#### begin endを使ったコメント
+```ruby
+=begin
+ここにコメントを記載
+=end
+```
